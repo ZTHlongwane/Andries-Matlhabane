@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andries Matlhabane - Videographer Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* General Layout */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero, .about, .work-experience, .projects, .portfolio, .testimonials, .contact, .footer {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('your-hero-image.jpg'); /* Replace with relevant image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .grid-item {
+            flex: 1 1 calc(33% - 40px);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Contact Form */
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Andries Matlhabane</h1>
+        <p>Experienced Videographer with 16 Years of Expertise</p>
+        <a href="#portfolio" class="btn">View My Portfolio</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="about container">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a seasoned videographer with over 16 years of experience, delivering high-quality visuals for top brands across Africa.</p>
+        <p><strong>Core Skills:</strong> Videography, Event Coverage, Corporate Video Production, International Experience, Editing</p>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="work-experience container">
+        <h2 class="section-title">Work Experience</h2>
+        <p>I've worked with reputable companies like TCH, Bonisa, Avactive, and currently VenueTech, covering projects for various industries.</p>
+    </div>
+
+    <!-- Notable Projects Section -->
+    <div class="projects container">
+        <h2 class="section-title">Notable Projects</h2>
+        <p>I've completed projects for leading brands such as Eskom, Nedbank, African Bank, Standard Bank, ABSA, Allan Gray, BBC, and more.</p>
+        <div class="grid-container">
+            <div class="grid-item">Eskom</div>
+            <div class="grid-item">Nedbank</div>
+            <div class="grid-item">African Bank</div>
+            <div class="grid-item">Standard Bank</div>
+            <div class="grid-item">ABSA</div>
+            <div class="grid-item">Allan Gray</div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="portfolio container" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <p>Here are some snapshots from my work with various hotels and corporate events:</p>
+        <div class="grid-container">
+            <!-- Replace placeholders with actual images and descriptions -->
+            <div class="grid-item"><img src="hotel1.jpg" alt="Hotel Project" style="width:100%; border-radius: 10px;"> <p>Hotel Project 1</p></div>
+            <div class="grid-item"><img src="hotel2.jpg" alt="Hotel Project" style="width:100%; border-radius: 10px;"> <p>Hotel Project 2</p></div>
+            <div class="grid-item"><img src="event1.jpg" alt="Corporate Event" style="width:100%; border-radius: 10px;"> <p>Corporate Event 1</p></div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="testimonials container">
+        <h2 class="section-title">Testimonials</h2>
+        <p>"Andries has an incredible eye for detail, capturing our corporate events with precision and creativity." — Client Name, Company</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact container">
+        <h2 class="section-title">Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Andries Matlhabane. All rights reserved.</p>
+            <p><a href="#">LinkedIn</a> | <a href="#">Instagram</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
